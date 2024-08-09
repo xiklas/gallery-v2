@@ -1,6 +1,6 @@
 {
   "name": "gallery-v2",
-  "homepage": "https://images.theprojectindex.com",
+  "homepage": "https://3d-viewer.theprojectindex.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
