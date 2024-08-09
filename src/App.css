@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+/* Logo-Stile */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,19 +14,21 @@
   }
 }
 
+/* Header-Stile */
 .App-header {
-  background-color: #282c34;
+  background-color: #282c34; /* Hintergrundfarbe für den Standardmodus */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; /* Textfarbe für den Standardmodus */
 }
 
+/* Link-Stile */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Linkfarbe für den Standardmodus */
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +37,17 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  .App-header {
+    background-color: #1c1f24; /* Dunklerer Hintergrund für den Dark Mode */
+    color: #ffffff; /* Hellerer Text für den Dark Mode */
+  }
+
+  .App-link {
+    color: #9cdefb; /* Etwas hellere Linkfarbe für bessere Sichtbarkeit im Dark Mode */
   }
 }
